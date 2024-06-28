@@ -35,6 +35,7 @@ const HomeScreen = () => {
       ) : (
         <>
           <Meta />
+
           <h1>Latest Products</h1>
           <Row>
             {data.products.map((product) => (
@@ -43,6 +44,7 @@ const HomeScreen = () => {
               </Col>
             ))}
           </Row>
+          <div className="coverimg"></div>
           <Paginate
             pages={data.pages}
             page={data.page}

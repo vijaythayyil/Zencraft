@@ -493,6 +493,14 @@ select {
   text-transform: none;
 }
 
+.coverimg {
+  height: 100px;
+  width: 100%;
+  background: url("../coverimg.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .cardButtons {
   float: right;
   background: none !important; /* Remove background */
