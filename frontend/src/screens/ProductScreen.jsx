@@ -161,11 +161,11 @@ const ProductScreen = () => {
                     </Button>
                     <Button
                       onClick={addToWishlistHandler}
-                      className="btn-block"
+                      className="btn-block wishlist-btnn wishlistButton" // Updated class name
                       type="button"
                     >
                       Add to Wishlist
-                    </Button>{" "}
+                    </Button>
                   </ListGroup.Item>
                 </ListGroup>
               </Card>

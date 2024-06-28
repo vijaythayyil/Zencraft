@@ -498,6 +498,18 @@ select {
   background: none !important; /* Remove background */
 }
 
+.wishlistButton {
+  float: right;
+  background: #adff2f !important;
+  background-color: #adff2f !important; /* Change button color to green */
+  border-color: darkgreen !important; /* Optional: Adjust the border color for better appearance */
+  color: white !important; /* Change text color to white for better contrast */
+}
+
+.wishlistButton:hover {
+  background-color: darkgreen !important; /* Dark green color on hover */
+}
+
 .wishlist-btn,
 .cart-btn {
   background: transparent !important; /* Remove background */
