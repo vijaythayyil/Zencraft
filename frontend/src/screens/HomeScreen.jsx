@@ -45,11 +45,13 @@ const HomeScreen = () => {
             ))}
           </Row>
           <div className="coverimg"></div>
-          <Paginate
-            pages={data.pages}
-            page={data.page}
-            keyword={keyword ? keyword : ""}
-          />
+          <div className="paginateb">
+            <Paginate
+              pages={data.pages}
+              page={data.page}
+              keyword={keyword ? keyword : ""}
+            />
+          </div>
         </>
       )}
     </>

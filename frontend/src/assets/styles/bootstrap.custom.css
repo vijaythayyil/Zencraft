@@ -501,6 +501,14 @@ select {
   background-size: cover;
 }
 
+.paginateb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
 .cardButtons {
   float: right;
   background: none !important; /* Remove background */
@@ -508,14 +516,14 @@ select {
 
 .wishlistButton {
   float: right;
-  background: #adff2f !important;
-  background-color: #adff2f !important; /* Change button color to green */
-  border-color: darkgreen !important; /* Optional: Adjust the border color for better appearance */
+  background: #627c3a !important;
+  background-color: #829367 !important; /* Change button color to green */
+  border-color: #43522b !important; /* Optional: Adjust the border color for better appearance */
   color: white !important; /* Change text color to white for better contrast */
 }
 
 .wishlistButton:hover {
-  background-color: darkgreen !important; /* Dark green color on hover */
+  background-color: #43522b !important; /* Dark green color on hover */
 }
 
 .wishlist-btn,

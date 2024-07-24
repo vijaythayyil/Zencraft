@@ -30,6 +30,7 @@ import ProductListScreen from "./screens/admin/ProductListScreen";
 import ProductEditScreen from "./screens/admin/ProductEditScreen";
 import UserListScreen from "./screens/admin/UserListScreen";
 import UserEditScreen from "./screens/admin/UserEditScreen";
+import ArtistProfile from "./screens/ArtistScreen";
 import store from "./store";
 import { Provider } from "react-redux";
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
@@ -49,6 +50,7 @@ const router = createBrowserRouter(
       <Route path="/wish" element={<WishlistScreen />} />
       <Route path="/login" element={<LoginScreen />} />
       <Route path="/register" element={<RegisterScreen />} />
+      <Route path="/artist" element={<ArtistProfile />} />
       {/* Registered users */}
       <Route path="" element={<PrivateRoute />}>
         <Route path="/shipping" element={<ShippingScreen />} />
